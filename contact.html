@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooms - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&family=Roboto:wght@310&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='nav_container'>
+        <!--Top Navigation Bar-->
+        
+        <div class='topnav'>
+
+            <!--Home center logo-->
+            
+            <div class='nav_centered'>
+                <a href='index.html' class='head'>Blooms</a>
+            </div>
+    
+            <!--Left aligned items-->
+            <a class='topnav_home' href='index.html'>Home</a>
+    
+            <!--Right Aligned Items-->
+            <div class='topnav_left'>
+                <a href='about.html'>About</a>
+                <a href='locations.html'>Locations</a>
+                <a class='active' href='contact.html'>Contact</a>
+            </div>
+            
+    </div>
+
+    <div class='container'>
+        <img src='headimage-03.jpg' style='width:100%;'>
+        <div class="centered">Contact Us</div>
+        <div class="bottom-right" style='text-align: right;'><a class='img-source' href="https://unsplash.com/photos/nP1EL_8dLc4">Photo by Annie Spratt on Unsplash</a></div>
+
+        
+    </div>
+    <div class='contact_msg_and_form'>
+        <p>Your satisfaction is most important to us. Let us know if you have any questions or comments.</p>
+        <form action='http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php' method='get'>
+            <label for='name'>Name</label><br>
+            <input type='text'  id='name' name='customer_name' placeholder='Your name' size='40' required><br>
+    
+            <label for='email'>Email</label><br>
+            <input type='email' id='email' name='customer_email' placeholder='Your email' size='40' required><br>
+    
+            <label for='message'>Message</label><br>
+            <textarea id='message' name='message' placeholder='Write your message here' style='height:300px; width: 298px' required></textarea><br>
+    
+            <input type='submit' value='Submit'>
+    
+        </form>
+    </div>
+
+    <div class='hours'>
+        <p>Phone: varies by location</p>
+        <p>Email: <a href="mailto:contact@blooms.com">contact@blooms.com</a></p>
+        <p>Opening Hours:</p>
+        <ul>
+            <li>Monday: 8am - 9pm</li>
+            <li>Tuesday: 8am - 9pm</li>
+            <li>Wednesday: 8am - 9pm</li>
+            <li>Thursday: 8am - 9pm</li>
+            <li>Friday: 8am - 7pm</li>
+            <li>Saturday: 10am - 7pm</li>
+            <li>Sunday: Closed</li>
+        </ul>
+    </div>
+</body>
+</html>
