@@ -150,7 +150,7 @@ div.download_link {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 270%;
+    top: 240%;
     width: auto;
     padding: 16px;
     margin-top: 10px;
